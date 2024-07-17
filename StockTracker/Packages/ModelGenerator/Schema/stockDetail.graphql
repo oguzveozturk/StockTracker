@@ -1,0 +1,17 @@
+query StockDetail($ticker: String!, $limit: Int, $endDate: Date, $startDate: Date, $range: Int, $timespan: String) {
+  stockDetail(ticker: $ticker) {
+    ticker
+    name
+    currency_name
+    description
+    branding {
+      logo_url
+    }
+    stockAggregates(limit: $limit, endDate: $endDate, startDate: $startDate, range: $range, timespan: $timespan) {
+      results {
+        c
+        t
+      }
+    }
+  }
+}

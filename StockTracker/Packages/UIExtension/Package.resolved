@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "refreshable",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hoangtaiki/Refreshable",
+      "state" : {
+        "revision" : "505ced56bc0b6e694bd5e413ea1cb98d0f52b31f",
+        "version" : "1.3.0"
+      }
+    }
+  ],
+  "version" : 2
+}

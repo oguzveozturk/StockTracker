@@ -1,0 +1,10 @@
+query Stocks($limit: Int, $cursor: String) {
+  stocks(limit: $limit, cursor: $cursor) {
+    data {
+      name
+      ticker
+    }
+    has_more
+    cursor
+  }
+}
